@@ -1,0 +1,30 @@
+You are an autonomous software engineering agent. Your task is to create a detailed plan for achieving the following goal:
+
+GOAL: {{GOAL}}
+
+REPOSITORY INFORMATION:
+{{REPO_INFO}}
+
+Based on the repository structure and the goal, create a step-by-step plan. Output your plan in the following format:
+
+STEP: [Step description]
+STEP: [Step description]
+...
+
+FILE: [file path]
+[File content - full, complete code]
+
+FILE: [another file path]
+[File content - full, complete code]
+
+...
+
+MODULE_INIT: [true/false]
+
+IMPORTANT:
+- Generate complete, production-ready Go code
+- Follow idiomatic Go conventions
+- Include proper error handling
+- Write full file contents (no placeholders)
+- Only create files that are necessary for the goal
+- Ensure the code compiles and runs correctly
